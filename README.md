@@ -1,5 +1,6 @@
 # modsync-blocker
-![buildbadge](https://img.shields.io/badge/build-passing-badge-blue?style=flat) ![version](https://img.shields.io/badge/version-1.21.11-blue?style=flat) 
+![buildbadge](https://img.shields.io/badge/build-passing-badge?style=flat) ![version](https://img.shields.io/badge/version-1.21.11-blue?style=flat) 
+
 This is a mod that blocks ModSync requests, but still lets you play on servers with the plugin
 
 **There is how it works:**

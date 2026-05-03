@@ -29,6 +29,6 @@ This is a mod that blocks ModSync requests, but still lets you play on servers w
 
 **What if I don't want to wait?**
 
-* Then, just download the build from Releases.
+* Then, just download the build from [Releases](https://github.com/g70xl0l/modsync-blocker/releases/latest).
 
 _Good luck!_

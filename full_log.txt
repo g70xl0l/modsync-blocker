@@ -1,0 +1,70 @@
+Initialized native services in: C:\Users\1\.gradle\native
+Initialized jansi services in: C:\Users\1\.gradle\native
+The client will now receive all logging from the daemon (pid: 12360). The daemon log file: C:\Users\1\.gradle\daemon\9.4.1\daemon-12360.out.log
+Starting 22nd build in daemon [uptime: 51 mins 33.054 secs, performance: 99%, GC rate: 0.00/s, heap usage: 24% of 1 GiB]
+Using 8 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=true, resilientModelBuilding=false}
+Now considering [C:\Users\1\Downloads\modsyncblocker-template-1.21.11, C:\Users\1\Downloads\modsyncblocker-template-1.21.11 (1)] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\1\Downloads\modsyncblocker-template-1.21.11\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\1\Downloads\modsyncblocker-template-1.21.11\build.gradle'.
+Included projects: [root project 'modsyncblocker']
+
+> Configure project :
+Evaluating root project 'modsyncblocker' using build file 'C:\Users\1\Downloads\modsyncblocker-template-1.21.11\build.gradle'.
+Resolved plugin [id: 'net.fabricmc.fabric-loom-remap', version: '1.14-SNAPSHOT']
+Resolved plugin [id: 'maven-publish']
+Fabric Loom: 1.14.10
+(kotlin.metadata.jvm.KotlinClassMetadata) with version (2.2.20-release-333) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-metadata-jvm/2.2.20/1f04dd6a9950a57b90ab8fa536337ba76dee4f59/kotlin-metadata-jvm-2.2.20.jar)
+(org.objectweb.asm.ClassVisitor) with version (9.9) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.9/c29635c8a7afa03d74b33c1884df8abb2b3f3dcc/asm-9.9.jar)
+(org.objectweb.asm.tree.analysis.Analyzer) with version (9.9) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.9/bf4fa6e66638851c1cd22c2caea0c3ee5d5f437/asm-analysis-9.9.jar)
+(org.objectweb.asm.commons.ClassRemapper) with version (9.9) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.9/db9165a3bf908ded6b08612d583a15d1d0c7bda0/asm-commons-9.9.jar)
+(org.objectweb.asm.tree.ClassNode) with version (9.9) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.9/f8de6eead6d24dd0f45bd065bbe112b2cda6ea21/asm-tree-9.9.jar)
+(org.objectweb.asm.util.ASMifier) with version (9.9) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.9/42fdfc0508b43807c8078d6e82ecff2ce2112ae8/asm-util-9.9.jar)
+(com.google.gson.Gson) with version (null) was loaded from (/C:/Users/1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar)
+Using cached Minecraft jars
+:Extracting server jar from bootstrap
+Evaluating layer mapping: loom:mappings:layered+hash.2198
+file or directory 'C:\Users\1\Downloads\modsyncblocker-template-1.21.11\src\main\resources', not found
+Mod dependency options: {"__inlineRefmap__":false,"__mappings__":"loom.mappings.1_21_11.layered+hash.2198-v2"}
+Applying installer data from C:\Users\1\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.1\2f1cf1fa62e868562f522698cce909fa1c474d36\fabric-loader-0.18.1.jar
+Found another installer JSON in (C:\Users\1\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.1\2f1cf1fa62e868562f522698cce909fa1c474d36\fabric-loader-0.18.1.jar), ignoring
+All projects evaluated.
+Task name matched 'compileClientJava'
+Selected primary task 'compileClientJava' from project :
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileClientJava']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#151074,Execution worker,5,main]) started.
+:compileJava (Thread[#151074,Execution worker,5,main]) started.
+
+> Task :compileJava NO-SOURCE
+Skipping task ':compileJava' as it has no source files and no previous output files.
+Resolve mutations for :processResources (Thread[#151074,Execution worker,5,main]) started.
+:processResources (Thread[#151074,Execution worker,5,main]) started.
+
+> Task :processResources NO-SOURCE
+Skipping task ':processResources' as it has no source files and no previous output files.
+Resolve mutations for :classes (Thread[#151074,Execution worker,5,main]) started.
+:classes (Thread[#151073,included builds,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileClientJava (Thread[#151073,included builds,5,main]) started.
+:compileClientJava (Thread[#151073,included builds,5,main]) started.
+
+> Task :compileClientJava FAILED
+Caching disabled for task ':compileClientJava' because:
+  Build cache is disabled
+Task ':compileClientJava' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':compileClientJava'.
+Compilation mode: in-process compilation
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Program Files\Java\jdk-21.0.10'.
+Compiling with JDK Java compiler API.
+
+[Incubating] Problems report is available at: file:///C:/Users/1/Downloads/modsyncblocker-template-1.21.11/build/reports/problems/problems-report.html
+1 actionable task: 1 executed
+Watched directory hierarchies: [C:\Users\1\Downloads\modsyncblocker-template-1.21.11, C:\Users\1\Downloads\modsyncblocker-template-1.21.11 (1)]
